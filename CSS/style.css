@@ -2,7 +2,8 @@ body{
     font-size: 16px;
     line-height: 1.6em;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 nav{
@@ -14,7 +15,6 @@ nav{
     align-items: center;
     justify-content: left;
     background-color: rgb(0 0 0 / 75%);
-    color: white;
 }
 
 nav .container{
@@ -38,18 +38,26 @@ a{
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    color: white;
     justify-content: center;
     align-items: center;
+}
+
+#advantages{
+    color: black;
 }
 
 #advantages .container{
     display: flex;
     flex-direction: row;
+    flex-basis: 0;
+}
+
+#advantages .container *{
+    flex:1;
 }
 
 #advantages img{
-    max-width: 50%;
+    width: 100%;
 }
 
 #image-box .container{
@@ -66,4 +74,77 @@ a:visited{
 
 section{
     margin-top: 50px;
+}
+
+.interlude{
+    display: flex;
+    height: 250px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/Media/main2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.interlude p{
+    margin: auto;
+}
+
+#formats .container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.format-card{
+    flex: 1 0 auto;
+    border-radius: 8px;
+    margin: 20px 10px;
+    padding: 15px;
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url("/Media/photo_2024-02-11_01-43-34.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gallery{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.row{
+    height: 300px;
+}
+
+.row img{
+    height: inherit;
+}
+
+#connect{
+    height: 500px;
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/Media/main3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+#connect .container{
+    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) );
+    height: 500px;
+}
+
+footer{
+    background-color: black;
+    height: 300px;
 }
