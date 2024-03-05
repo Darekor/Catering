@@ -155,7 +155,7 @@ nav{
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    background-image: url("/Media/photo_2024-02-11_01-43-34.jpg");
+    background-image: url("Media/photo_2024-02-11_01-43-34.jpg");
     display: flex;
     align-items: center;
     justify-content: center;
