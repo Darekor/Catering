@@ -45,7 +45,7 @@ nav{
     height: 100vh;
     display: flex;
     color: white;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/Media/main3.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../Media/main3.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -115,7 +115,7 @@ nav{
 .interlude{
     display: flex;
     height: 250px;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/Media/main2.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../Media/main2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
